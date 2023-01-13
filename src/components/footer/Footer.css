@@ -1,0 +1,54 @@
+footer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 5px;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction:column;
+  text-align: left;
+  width: 90%;
+  align-items: left;
+  margin-left: 3%;
+}
+
+.footer-sign-up {
+  font-weight: 300;
+  margin-bottom: 0%;
+}
+
+.footer-sign-up-details {
+  font-weight: 300;
+  font-size: small;
+  color: gray;
+}
+
+label {
+  font-weight: 500;
+  font-size: small;
+}
+#email-signup-email {
+  border: 1px solid black;
+  width: 90vw;
+  font-size: large;
+  padding: 10px 5px;
+  margin-top: 5px;
+}
+
+.signup-submit-btn {
+  width: 93vw;
+  font-size: large;
+  padding: 10px 5px;
+  margin-top: 8%;
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.disclaimer {
+  font-size: x-small;
+  color: gray;
+  margin-top: 10%;
+}
