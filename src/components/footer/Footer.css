@@ -119,3 +119,100 @@ label {
   margin: 10px;
 }
 
+.app-btns-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.apple-app-btn {
+  border: 1.5px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 10px 0 5px;
+  height: 32px;
+}
+.google-play-btn {
+  border: 1.5px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 10px 0 5px;
+  height: 32px;
+}
+
+.tiny-top-text {
+  font-size: xx-small;
+  margin-bottom: -18px;
+}
+
+.apple-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.google-play-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.social-icons-section-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+.ig-icon, .fb-icon, .pin-icon, .twitter-icon {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+.social-icons-section-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tik-icon, .yt-icon, .spot-icon {
+  height: 30px;
+  width: 30px;
+  margin: 0 10px 10px 10px;
+}
+
+.priv-terms-transp-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: x-small;
+  margin-top: 20px;
+}
+.access-urbn-res-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: x-small;
+  margin-top: 5px;
+}
+
+.priv-terms-etc-section {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.copyright-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: x-small;
+}
+

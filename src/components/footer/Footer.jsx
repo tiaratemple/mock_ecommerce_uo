@@ -4,6 +4,16 @@ import { TbBuildingWarehouse } from "react-icons/tb";
 import { BsEnvelope } from "react-icons/bs";
 import { SlScreenSmartphone } from "react-icons/sl";
 import { HiOutlinePlus } from "react-icons/hi";
+import { AiFillApple } from "react-icons/ai";
+import { FaGooglePlay } from "react-icons/fa";
+import { RxInstagramLogo } from "react-icons/rx";
+import { BsFacebook } from "react-icons/bs";
+import { FaPinterest } from "react-icons/fa";
+import { BsTwitter } from "react-icons/bs";
+import { FaTiktok } from "react-icons/fa";
+import { BsYoutube } from "react-icons/bs";
+import { BsSpotify } from "react-icons/bs";
+import { CgCopyright } from "react-icons/cg";
 
 function Footer() {
   return (
@@ -50,6 +60,58 @@ function Footer() {
           <h4 className="extras">Extras</h4>
           <HiOutlinePlus className="plus-icon" />
         </div>
+      </div>
+      <div className="app-btns-row">
+        <div className="apple-app-btn">
+          <div className="apple-icon-section">
+            <AiFillApple className="apple-icon" />
+          </div>
+          <div className="apple-app-btn-text">
+            <p className="tiny-top-text">Download on the</p>
+            <p className="large-bottom-text">App Store</p>
+          </div>
+        </div>
+        <div className="google-play-btn">
+          <div className="google-play-icon-section">
+            <FaGooglePlay className="google-play-icon" />
+          </div>
+          <div className="google-play-btn-text">
+            <p className="tiny-top-text">GET IT ON</p>
+            <p className="large-bottom-text">Google Play</p>
+          </div>
+        </div>
+      </div>
+      <div className="social-icons-section-top">
+        <RxInstagramLogo className="ig-icon" />
+        <BsFacebook className="fb-icon" />
+        <FaPinterest className="pin-icon" />
+        <BsTwitter className="twitter-icon" />
+      </div>
+      <div className="social-icons-section-bottom">
+        <FaTiktok className="tik-icon" />
+        <BsYoutube className="yt-icon" />
+        <BsSpotify className="spot-icon" />
+      </div>
+      <div className="priv-terms-etc-section">
+        <div className="priv-terms-transp-row">
+          <p className="pp">Privacy Policy</p>
+          <p className="line">|</p>
+          <p className="terms">Terms of Use</p>
+          <p className="line">|</p>
+          <p className="ca-transp">CA Transparency</p>
+          <p className="line">|</p>
+        </div>
+        <div className="access-urbn-res-row">
+          <p className="access">Accessibility</p>
+          <p className="line">|</p>
+          <p className="urbn">URBN.com</p>
+          <p className="line">|</p>
+          <p className="ca-res">For CA Residents</p>
+        </div>
+      </div>
+      <div className="copyright-section">
+        <CgCopyright />
+        <p className="copyright">2023 Urban Outfitters All Rights Reserved</p>
       </div>
     </footer>
   );

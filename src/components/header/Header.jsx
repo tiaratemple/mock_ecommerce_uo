@@ -7,7 +7,9 @@ import { RxHamburgerMenu } from "react-icons/rx";
 function Header() {
   return (
     <header>
-      <h2 className="global-header">URBAN OUTFITTERS</h2>
+      <div className="global-header-container">
+        <h2 className="global-header">URBAN OUTFITTERS</h2>
+      </div>
       <div className="global-header-row-two">
         <span className="search-bar">
           <input type="text" placeholder="Search" />
