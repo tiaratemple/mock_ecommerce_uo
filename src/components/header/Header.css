@@ -10,6 +10,7 @@
   font-family: "Oswald";
   font-size:xx-large;
   position: sticky;
+  margin-bottom: 10px;
 }
 
 .global-header-row-two {
@@ -17,6 +18,8 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
 }
 
 .search-bar {
@@ -26,6 +29,7 @@
   border: 1px solid black;
   width: 60%;
   padding: 10px 5px; 
+  margin: 8px 8px;
 }
 
 input {

@@ -3,6 +3,8 @@ footer {
   display: flex;
   flex-direction: column;
   bottom: 5px;
+  background-color: rgb(241, 239, 239);
+  border-top: 1px solid lightgray;
 }
 
 .signup-container {
@@ -15,12 +17,12 @@ footer {
 }
 
 .footer-sign-up {
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 0%;
 }
 
 .footer-sign-up-details {
-  font-weight: 300;
+  font-weight: 400;
   font-size: small;
   color: gray;
 }
@@ -50,7 +52,7 @@ label {
 .disclaimer {
   font-size: x-small;
   color: gray;
-  margin-top: 10%;
+  margin: 10% 0 10% 0;
 }
 
 .store-email-texts-container {
@@ -58,6 +60,7 @@ label {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-top: 1px solid lightgray;
 }
 
 .store-section {
@@ -101,6 +104,8 @@ label {
   justify-content: space-between;
   align-items: center;
   margin: 10px;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
 }
 
 .ql-section {
@@ -109,6 +114,7 @@ label {
   justify-content: space-between;
   align-items: center;
   margin: 10px;
+  border-bottom: 1px solid lightgray;
 }
 
 .extras-section {
@@ -117,12 +123,14 @@ label {
   justify-content: space-between;
   align-items: center;
   margin: 10px;
+  border-bottom: 1px solid lightgray;
 }
 
 .app-btns-row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 10px;
 }
 
 .apple-app-btn {

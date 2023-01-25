@@ -1,0 +1,29 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 90%;
+  align-items: left;
+  margin-left: 3%;
+  border-top: 1px solid lightgray;
+}
+
+.about {
+  font-weight: 300;
+  margin-bottom: 0%;
+}
+
+.about-details {
+  font-weight: 400;
+  font-size: small;
+  color:gray;
+  margin-bottom: 0%;
+}
+
+.details-more {
+  font-weight: 400;
+  font-size: small;
+  color:gray;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}

@@ -11,6 +11,10 @@ import Beauty from "./components/beauty/Beauty";
 import Brands from "./components/brands/Brands";
 import Sale from "./components/sale/Sale";
 import Giftcards from "./components/giftcards/Giftcards";
+import MostPopular from "./components/most_popular/MostPopular";
+import NewArrivals from "./components/new_arrivals/NewArrivals";
+import Community from "./components/community/Community";
+import AboutUo from "./components/about_uo/AboutUo";
 
 function App() {
   return (
@@ -26,6 +30,10 @@ function App() {
       <Brands />
       <Sale />
       <Giftcards />
+      <NewArrivals />
+      <MostPopular />
+      <Community />
+      <AboutUo />
       <Footer />
     </div>
   );

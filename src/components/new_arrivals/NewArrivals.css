@@ -1,0 +1,43 @@
+.new-arrivals-container {
+  width: 100vw;
+  margin-bottom: 100px;
+}
+
+.img-row {
+  display: flex;
+  flex-direction: row;
+ justify-content: space-around;
+}
+
+.sweater, .bag {
+  height: 209px;
+  width: 139px;
+  margin: 10px, 10px, 5px, 10px;
+}
+
+.new-arrivals-title {
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.img-column-left {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 140px;
+}
+
+.img-column-right {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 140px;
+}
+
+.img-left-description {
+  font-size: small;
+}
+
+.img-right-description {
+  font-size: small;
+}
