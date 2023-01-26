@@ -4,16 +4,11 @@ import "./UrbanRenewal.css";
 
 const UrbanRenewal = () => {
   return (
-    <div
+    <img
       className="urban-renewal-landing"
-      style={{
-        background: `url(${urban_renew})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        height: 275,
-        width: 375,
-      }}
-    ></div>
+      src={urban_renew}
+      alt="model eating in booth at diner"
+    />
   );
 };
 

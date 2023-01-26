@@ -4,16 +4,7 @@ import "./Womens.css";
 
 const Womens = () => {
   return (
-    <div
-      className="womens-landing"
-      style={{
-        background: `url(${womens})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        height: 275,
-        width: 375,
-      }}
-    ></div>
+    <img className="womens-landing" src={womens} alt="two models in dresses" />
   );
 };
 

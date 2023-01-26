@@ -4,16 +4,11 @@ import "./Beauty.css";
 
 const Beauty = () => {
   return (
-    <div
+    <img
       className="beauty-landing"
-      style={{
-        background: `url(${beauty})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        height: 275,
-        width: 375,
-      }}
-    ></div>
+      src={beauty}
+      alt="model applying lipstick"
+    />
   );
 };
 

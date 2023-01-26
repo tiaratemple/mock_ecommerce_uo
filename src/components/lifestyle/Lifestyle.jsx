@@ -4,16 +4,11 @@ import "./Lifestyle.css";
 
 const Lifestyle = () => {
   return (
-    <div
+    <img
       className="lifestyle-landing"
-      style={{
-        background: `url(${lifestyle})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        height: 275,
-        width: 375,
-      }}
-    ></div>
+      src={lifestyle}
+      alt="books, coffee cup, pillow, candle"
+    />
   );
 };
 

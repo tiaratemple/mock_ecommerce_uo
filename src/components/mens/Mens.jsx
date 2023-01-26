@@ -4,16 +4,11 @@ import "./Mens.css";
 
 const Mens = () => {
   return (
-    <div
+    <img
       className="mens-landing"
-      style={{
-        background: `url(${mens})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        height: 275,
-        width: 375,
-      }}
-    ></div>
+      src={mens}
+      alt="model in sleeveless sweater"
+    />
   );
 };
 

@@ -4,16 +4,11 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div
+    <img
       className="home-landing"
-      style={{
-        background: `url(${home})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        height: 275,
-        width: 375,
-      }}
-    ></div>
+      src={home}
+      alt="neon light heart sign on wall"
+    />
   );
 };
 

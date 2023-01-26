@@ -4,16 +4,11 @@ import "./Music.css";
 
 const Music = () => {
   return (
-    <div
+    <img
       className="music-landing"
-      style={{
-        background: `url(${music})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        height: 275,
-        width: 375,
-      }}
-    ></div>
+      src={music}
+      alt="record, speaker, radio, microphone"
+    />
   );
 };
 

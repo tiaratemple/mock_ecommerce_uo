@@ -4,16 +4,11 @@ import "./Sale.css";
 
 const Sale = () => {
   return (
-    <div
+    <img
       className="sale-landing"
-      style={{
-        background: `url(${sale})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        height: 130,
-        width: 375,
-      }}
-    ></div>
+      src={sale}
+      alt="colors in water color pattern"
+    />
   );
 };
 

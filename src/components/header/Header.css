@@ -49,3 +49,18 @@ input {
   height: 25px;
   width: 25px;
 }
+
+@media only screen and (min-width:700px) and (max-width:1000px) {
+  
+  .global-header-row-two {
+    justify-content: space-around;
+  }
+
+  .search-bar {
+    justify-content: space-between;
+  }
+
+  .row-two-right-container {
+    justify-content: space-evenly;
+  }
+}

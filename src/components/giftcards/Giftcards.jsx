@@ -4,16 +4,11 @@ import "./Giftcards.css";
 
 const Giftcards = () => {
   return (
-    <div
+    <img
       className="giftcards-landing"
-      style={{
-        background: `url(${giftcards})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        height: 130,
-        width: 375,
-      }}
-    ></div>
+      src={giftcards}
+      alt="colors in tie-dye pattern"
+    />
   );
 };
 

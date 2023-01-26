@@ -3,18 +3,7 @@ import brands from "../../assets/brands.webp";
 import "./Brands.css";
 
 const Brands = () => {
-  return (
-    <div
-      className="brands-landing"
-      style={{
-        background: `url(${brands})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        height: 275,
-        width: 375,
-      }}
-    ></div>
-  );
+  return <img className="brands-landing" src={brands} alt="brand logos" />;
 };
 
 export default Brands;
