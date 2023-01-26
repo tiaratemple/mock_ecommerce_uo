@@ -5,6 +5,8 @@
   width: 375px;
 }
 
+/*large phone and tablet*/
+
 @media only screen and (min-width:400px) and (max-width:1000px) {
   
   .womens-landing {
@@ -13,3 +15,14 @@
   }
 }
 
+/*desktop*/
+
+@media only screen and (min-width:1000px) and (max-width:2000px) {
+
+  .womens-landing {
+    width:48%;
+    height:auto;
+    margin-left: 2%;
+  }
+ 
+}

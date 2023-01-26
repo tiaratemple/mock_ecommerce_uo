@@ -20,3 +20,24 @@
   width: 338px;
   margin: 40px 20px;
 }
+
+/*desktop*/
+
+@media only screen and (min-width:1000px) and (max-width:2000px) {
+
+  .graphics {
+    height: 160px;
+    width: 50%;
+  }
+  
+  .nick {
+    height: 656px;
+    width:50%;
+  }
+  
+  .vector {
+    height: 100px;
+    width: 30%;
+  }
+
+}

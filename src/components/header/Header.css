@@ -49,7 +49,7 @@ input {
   height: 25px;
   width: 25px;
 }
-
+/*larger phone and tablet */
 @media only screen and (min-width:700px) and (max-width:1000px) {
   
   .global-header-row-two {
@@ -62,5 +62,24 @@ input {
 
   .row-two-right-container {
     justify-content: space-evenly;
+  }
+}
+
+/*desktop*/
+
+@media only screen and (min-width:1000px) and (max-width:2000px) {
+  
+  .global-header-row-two {
+    justify-content: space-between;
+  }
+
+  .search-bar {
+    justify-content: space-between;
+    width: 30%;
+  }
+
+  .row-two-right-container {
+    justify-content: space-evenly;
+    width: 10%;
   }
 }

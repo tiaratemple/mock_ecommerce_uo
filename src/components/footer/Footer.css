@@ -31,6 +31,7 @@ label {
   font-weight: 500;
   font-size: small;
 }
+
 #email-signup-email {
   border: 1px solid black;
   width: 90vw;
@@ -224,3 +225,81 @@ label {
   font-size: x-small;
 }
 
+/*desktop*/
+
+@media only screen and (min-width:1000px) and (max-width:2000px) {
+  
+  footer {
+   width: 100%;
+   align-items: center;
+  }
+
+  .signup-container {
+    width: 40%;
+    justify-content: center;
+  }
+  
+  #email-signup-email {
+    width: 95%;
+  }
+  
+  .signup-submit-btn {
+    width: 97%;
+  }
+
+  .disclaimer {
+    margin: 5% 0 10% 0;
+  }
+
+  .store-email-texts-container {
+    width: 100%;
+  }
+  
+  
+  .store-section {
+    width: 100%;
+    font-size: medium;
+    justify-content: center;
+  }
+  
+  .email-section {
+    width: 100%;
+    font-size: medium;
+    justify-content: center;
+  }
+  
+  .texts-section {
+    width: 100%;
+    font-size: medium;
+    justify-content: center;
+  }
+  
+  .store-icon, .email-icon, .phone-icon {
+   margin-right: 5px;
+  }
+
+  .help-ql-extras-container {
+    width:40%;
+  }
+  
+  .app-btns-row {
+    width: 40%;  
+  }
+
+  .priv-terms-transp-row {
+    width: 40%;
+    margin-left: 25%;
+  }
+  .access-urbn-res-row {
+    width: 40%;
+    margin-left: 25%;
+  }
+  
+  .priv-terms-etc-section {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+
+  
+}
